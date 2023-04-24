@@ -1,0 +1,690 @@
+
+.picture{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;}
+
+.blackrect1{
+  z-index: 2;
+  position: absolute;
+  top: 2vw;
+  left: 34vw;
+  background-color: black;
+  width: 4vw;
+  height: 3vw;
+  transform: rotate(117deg);
+  animation: blackrect1 6s alternate infinite;
+      }
+    @keyframes blackrect1 {
+      0% {
+        background-color: white;
+        top: -30vw;
+      }
+      45% {
+        background-color: black;
+        top: 2vw;
+      }
+    }
+
+.blackrect2{
+  z-index: 2;
+  position: absolute;
+  top: 11vw;
+  left: 24vw;
+  background-color: black;
+  width: 14vw;
+  height: 2vw;
+  transform: rotate(117deg);
+  animation: blackrect2 6s alternate infinite;
+      }
+    @keyframes blackrect2 {
+      0% {
+        background-color: white;
+        top: -30vw;
+      }
+      45% {
+        background-color: black;
+        top: 11vw;
+      }
+    }
+
+.blackrect3{
+  z-index: 2;
+  position: absolute;
+  top: 9vw;
+  left: 9vw;
+  background-color: black;
+  width: 21vw;
+  height: 3vw;
+  transform: rotate(122deg);
+  animation: blackrect3 6s alternate infinite;
+      }
+    @keyframes blackrect3 {
+      0% {
+        background-color: white;
+        top: -30vw;
+      }
+      45% {
+        background-color: black;
+        top: 9vw;
+      }
+    }
+
+.blackrect4{
+  z-index: 2;
+  position: absolute;
+  top: 13vw;
+  left: 9vw;
+  background-color: black;
+  width: 21vw;
+  height: 3vw;
+  transform: rotate(122deg);
+  animation: blackrect4 6s alternate infinite;
+      }
+    @keyframes blackrect4 {
+      0% {
+        background-color: white;
+        top: -30vw;
+      }
+      45% {
+        background-color: black;
+        top: 13vw;
+      }
+    }
+
+.blackrect5{
+  z-index: 2;
+  position: absolute;
+  top: 5vw;
+  left:28vw;
+  background-color: black;
+  width: 4vw;
+  height: 3vw;
+  transform: rotate(117deg);
+  animation: blackrect5 6s alternate infinite;
+      }
+    @keyframes blackrect5 {
+      0% {
+        background-color: white;
+        top: -30vw;
+      }
+      45% {
+        background-color: black;
+        top: 5vw;
+      }
+    }
+
+.blackrect6{
+  z-index: 2;
+  position: absolute;
+  top: 33vw;
+  left: -1vw;
+  background-color: black;
+  width: 23vw;
+  height: 5vw;
+  transform: rotate(124deg);
+  animation: blackrect6 6s alternate infinite;
+      }
+    @keyframes blackrect6 {
+      0% {
+        background-color: white;
+        top: -30vw;
+      }
+      45% {
+        background-color: black;
+        top: 33vw;
+      }
+    }
+
+.greenbigrect{
+  position: absolute;
+  top: 29vw;
+  left: 2vw;
+  background-color: green;
+  width: 56vw;
+  height: 14vw;
+  transform: rotate(117deg);
+  animation: greenbigrect 6s alternate infinite;
+      }
+    @keyframes greenbigrect {
+      0% {
+        background-color: red;
+        transform: rotate(117deg);
+      }
+      15% {
+        background-color: yellow;
+      }
+      30% {
+        background-color: pink;
+        transform: rotate(-1170deg);
+      }
+    }
+.bluebigsquare{
+  z-index: -1;
+  position: absolute;
+  top: 39vw;
+  left: 42vw;
+  background-color: blue;
+  width: 38vw;
+  height: 35vw;
+  transform: rotate(123deg);
+  animation: bluebigsquare 6s alternate infinite;
+        }
+      @keyframes bluebigsquare {
+        0% {
+            transform: scale(1.0);
+        }
+        50% {
+            transform: scale(2.0);
+        }
+    }
+
+.blackbigrect{
+  position: absolute;
+  top: 67vw;
+  left: 10vw;
+  background-color: black;
+  width: 83vw;
+  height: 13vw;
+  animation: blackbigrect 6s alternate infinite;
+        }
+      @keyframes blackbigrect {
+        0% {
+            width: 83vw;
+            height: 13vw;
+            left: 10vw;
+        }
+        50% {
+            width: 166vw;
+            height: 1vw;
+            left: -10vw;
+            background-color: white;
+        }
+    }
+
+.yellowrect{
+  z-index: 3;
+  position: absolute;
+  top: 84vw;
+  left: 64vw;
+  background-color: yellow;
+  width: 32vw;
+  height: 4vw;
+  animation: yellowrect 6s alternate infinite;
+        }
+      @keyframes yellowrect {
+        0% {
+            background-color: red;
+            transform: scale(1.0) rotate(10deg);
+        }
+        20% {
+            background-color: green;
+            transform: scale(1.5) rotate(10deg);
+        }
+        40% {
+            background-color: blue;
+            transform: scale(2.0) rotate(10deg);
+        }
+        60% {
+            background-color: white;
+            transform: scale(1.5) rotate(10deg);
+        }
+    }
+
+.yellowrect1{
+  z-index: 3;
+  position: absolute;
+  top: 89vw;
+  left: 76vw;
+  background-color: yellow;
+  width: 12vw;
+  height: 3vw;
+  transform: rotate(-10deg);
+  animation: yellowrect1 6s alternate infinite;
+        }
+      @keyframes yellowrect1 {
+        0% {
+            background-color: green;
+            transform: scale(1.0) rotate(-10deg);
+        }
+        20% {
+            background-color: red;
+            transform: scale(2.5) rotate(-10deg);
+        }
+        40% {
+            background-color: blue;
+            transform: scale(1.0) rotate(-10deg);
+        }
+        60% {
+            background-color: white;
+            transform: scale(1.5) rotate(-10deg);
+        }
+    }
+
+.yellowrect2{
+  z-index: 3;
+  position: absolute;
+  top: 92vw;
+  left: 82vw;
+  background-color: yellow;
+  width: 5vw;
+  height: 2vw;
+  transform: rotate(-10deg);
+  animation: yellowrect2 6s alternate infinite;
+        }
+      @keyframes yellowrect2 {
+        0% {
+            background-color: red;
+            transform: scale(0.5) rotate(-10deg);
+        }
+        20% {
+            background-color: white;
+            transform: scale(2.5) rotate(-10deg);
+        }
+        40% {
+            background-color: green;
+            transform: scale(1.0) rotate(-10deg);
+        }
+        60% {
+            background-color: blue;
+            transform: scale(1.5) rotate(-10deg);
+        }
+    }
+
+.yellowrect3{
+  z-index: 3;
+  position: absolute;
+  top: 18vw;
+  left: 66vw;
+  background-color: yellow;
+  width: 22vw;
+  height: 4vw;
+  transform: rotate(123deg);
+  animation: yellowrect3 6s alternate infinite;
+        }
+      @keyframes yellowrect3 {
+        0% {
+            background-color: white;
+            transform: scale(0.5) rotate(123deg);
+        }
+        20% {
+            background-color: red;
+            transform: scale(1.5) rotate(123deg);
+        }
+        40% {
+            background-color: blue;
+            transform: scale(2.0) rotate(123deg);
+        }
+        60% {
+            background-color: green;
+            transform: scale(1.0) rotate(123deg);
+        }
+    }
+
+.yellowrect4{
+  z-index: 3;
+  position: absolute;
+  top: 28vw;
+  left: 70vw;
+  background-color: yellow;
+  width: 13vw;
+  height: 3vw;
+  transform: rotate(123deg);
+  animation: yellowrect4 6s alternate infinite;
+        }
+      @keyframes yellowrect4 {
+        0% {
+            background-color: green;
+            transform: scale(1.5) rotate(123deg);
+        }
+        20% {
+            background-color: red;
+            transform: scale(0.5) rotate(123deg);
+        }
+        40% {
+            background-color: blue;
+            transform: scale(2.5) rotate(123deg);
+        }
+        60% {
+            background-color: white;
+            transform: scale(2.0) rotate(123deg);
+        }
+    }
+
+.yellowrect5{
+  z-index: 3;
+  position: absolute;
+  top: 32vw;
+  left: 67vw;
+  background-color: yellow;
+  width: 5vw;
+  height: 3vw;
+  transform: rotate(123deg);
+  animation: yellowrect5 6s alternate infinite;
+        }
+      @keyframes yellowrect5 {
+        0% {
+            background-color: red;
+            transform: scale(2.5) rotate(123deg);
+        }
+        20% {
+            background-color: blue;
+            transform: scale(0.5) rotate(123deg);
+        }
+        40% {
+            background-color: white;
+            transform: scale(2.5) rotate(123deg);
+        }
+        60% {
+            background-color: green;
+            transform: scale(2.0) rotate(123deg);
+        }
+    }
+
+.yellowrect6{
+  z-index: 3;
+  position: absolute;
+  top: 22vw;
+  left: 86vw;
+  background-color: yellow;
+  width: 4vw;
+  height: 4vw;
+  transform: rotate(123deg);
+  animation: yellowrect6 6s alternate infinite;
+        }
+      @keyframes yellowrect6 {
+        0% {
+            background-color: white;
+            transform: scale(0.5) rotate(123deg);
+        }
+        20% {
+            background-color: blue;
+            transform: scale(1.0) rotate(123deg);
+        }
+        40% {
+            background-color: red;
+            transform: scale(1.5) rotate(123deg);
+        }
+        60% {
+            background-color: green;
+            transform: scale(1.0) rotate(123deg);
+        }
+    }
+
+.yellowrect7{
+  z-index: 3;
+  position: absolute;
+  top: 26vw;
+  left: 80vw;
+  background-color: yellow;
+  width: 6vw;
+  height: 5vw;
+  transform: rotate(123deg);
+  animation: yellowrect7 6s alternate infinite;
+        }
+      @keyframes yellowrect7 {
+        0% {
+            background-color: red;
+            transform: scale(0.5) rotate(123deg);
+        }
+        20% {
+            background-color: blue;
+            transform: scale(2.0) rotate(123deg);
+        }
+        40% {
+            background-color: green;
+            transform: scale(0.5) rotate(123deg);
+        }
+        60% {
+            background-color: white;
+            transform: scale(2.0) rotate(123deg);
+        }
+    }
+
+.yellowrect8{
+  z-index: 3;
+  position: absolute;
+  top: 32vw;
+  left: 77vw;
+  background-color: yellow;
+  width: 8vw;
+  height: 11vw;
+  transform: rotate(123deg);
+  animation: yellowrect6 6s alternate infinite;
+        }
+      @keyframes yellowrect6 {
+        0% {
+            background-color: red;
+            transform: scale(1.5) rotate(123deg);
+        }
+        20% {
+            background-color: blue;
+            transform: scale(2.0) rotate(123deg);
+        }
+        40% {
+            background-color: red;
+            transform: scale(1.5) rotate(123deg);
+        }
+        60% {
+            background-color: green;
+            transform: scale(2.0) rotate(123deg);
+        }
+    }
+
+.redline{
+  position: absolute;
+  top: 24vw;
+  left: 55vw;
+  background-color: red;
+  width: 28vw;
+  height: 1vw;
+  transform: rotate(123deg);
+  animation: blackbigrect 6s alternate infinite;
+        }
+      @keyframes blackbigrect {
+        0% {
+            width: 83vw;
+            height: 1vw;
+            left: 10vw;
+        }
+        50% {
+            width: 166vw;
+            height: 1vw;
+            left: -10vw;
+            background-color: white;
+        }
+    }
+
+.redline2{
+  position: absolute;
+  top: 82vw;
+  left: 29vw;
+  background-color: red;
+  width: 6vw;
+  height: 1vw;
+  transform: rotate(123deg);
+  animation: blackbigrect 6s alternate infinite;
+        }
+      @keyframes blackbigrect {
+        0% {
+            width: 83vw;
+            height: 1vw;
+            left: 10vw;
+        }
+        50% {
+            width: 166vw;
+            height: 1vw;
+            left: -10vw;
+            background-color: white;
+        }
+    }
+
+.redrect1{
+  z-index: 0;
+  position: absolute;
+  top: 88vw;
+  left: 1vw;
+  background-color: red;
+  width: 26vw;
+  height: 8vw;
+  transform: rotate(123deg);
+  animation: redrect1 6s alternate infinite;
+        }
+      @keyframes redrect1 {
+        0% {
+            width: 26vw;
+            height: 1vw;
+            left: 10vw;
+        }
+        50% {
+            width: 52vw;
+            height: 1vw;
+            left: -10vw;
+            background-color: white;
+        }
+    }
+
+.redrect2{
+  z-index: 0;
+  position: absolute;
+  top: 109vw;
+  left: 2vw;
+  background-color: red;
+  width: 17vw;
+  height: 2vw;
+  transform: rotate(123deg);
+  animation: redrect2 6s alternate infinite;
+        }
+      @keyframes redrect2 {
+        0% {
+            width: 17vw;
+            height: 1vw;
+            left: 10vw;
+        }
+        50% {
+            width: 34vw;
+            height: 15vw;
+            left: -50vw;
+            background-color: white;
+        }
+    }
+
+.redrect3{
+  z-index: 0;
+  position: absolute;
+  top: 90vw;
+  left: 16vw;
+  background-color: red;
+  width: 8vw;
+  height: 5vw;
+  transform: rotate(123deg);
+  animation: redrect3 6s alternate infinite;
+        }
+      @keyframes redrect3 {
+        0% {
+            width: 8vw;
+            height: 1vw;
+            left: 10vw;
+        }
+        50% {
+            width: 16vw;
+            height: 20vw;
+            left: -100vw;
+            background-color: white;
+        }
+    }
+
+.redrect4{
+  z-index: 0;
+  position: absolute;
+  top: 90vw;
+  left: 25vw;
+  background-color: red;
+  width: 7vw;
+  height: 7vw;
+  animation: redrect4 6s alternate infinite;
+        }
+      @keyframes redrect4 {
+        0% {
+            width: 83vw;
+            height: 1vw;
+            left: 10vw;
+            background-color: white;
+            transform: scale(1.0) rotate(123deg);
+        }
+        50% {
+            width: 166vw;
+            height: 20vw;
+            left: -50vw;
+            background-color: blue;
+            transform: scale(4.0) rotate(123deg);
+        }
+    }
+
+
+.yellowrect9{
+  position: absolute;
+  top: 112vw;
+  left: 8vw;
+  background-color: yellow;
+  width: 17vw;
+  height: 2vw;
+  transform: rotate(123deg);
+  animation: yellowrect9 6s alternate infinite;
+      }
+    @keyframes yellowrect9 {
+      0% {
+        background-color: white;
+        height: 2vw;
+      }
+      30% {
+        background-color: yellow;
+        height: 0vw;
+      }
+    }
+
+.yellowline{
+  position: absolute;
+  top: 83vw;
+  left: 31vw;
+  background-color: yellow;
+  width: 6vw;
+  height: 1vw;
+  transform: rotate(123deg);
+  animation: yellowline 6s alternate infinite;
+      }
+    @keyframes yellowline {
+      0% {
+        background-color: white;
+        height: 6vw;
+      }
+      30% {
+        background-color: yellow;
+        height: 0vw;
+      }
+    }
+
+.pinkrect{
+  position: absolute;
+  top: 100vw;
+  left: 75vw;
+  background-color: pink;
+  width: 17vw;
+  height: 8vw;
+  transform: rotate(130deg);
+  animation: pinkrect 6s alternate infinite;
+      }
+    @keyframes pinkrect {
+      0% {
+        background-color: pink;
+        transform: rotate(117deg);
+      }
+      15% {
+        background-color: green;
+      }
+      30% {
+        background-color: pink;
+        transform: rotate(-1170deg);
+      }
+    }
